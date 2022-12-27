@@ -15,10 +15,10 @@ Public Class Pantalla_Login
 
     Private Sub Form1_Paint(ByVal sender As System.Object, ByVal e As System.Windows.Forms.PaintEventArgs) Handles MyBase.Paint
 
-        Dim rect As New Rectangle(-10, 0, 540, 489)
+        Dim rect As New Rectangle(-10, 0, Me.Size.Width, Me.Size.Height)
         Using br As New LinearGradientBrush(
-        rect, Color.FromArgb(61, 90, 128), Color.FromArgb(61, 90, 128),
-         LinearGradientMode.ForwardDiagonal)
+           rect, Color.FromArgb(61, 90, 128), Color.FromArgb(61, 90, 128),
+           LinearGradientMode.ForwardDiagonal)
             e.Graphics.FillRectangle(br, rect)
             e.Graphics.DrawRectangle(Pens.White, rect)
         End Using

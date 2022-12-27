@@ -46,6 +46,7 @@ Partial Class Pantalla_Login
         '
         'Label1
         '
+        Label1.Anchor = System.Windows.Forms.AnchorStyles.None
         Label1.AutoSize = True
         Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(41, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(65, Byte), Integer))
         Label1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
@@ -58,6 +59,7 @@ Partial Class Pantalla_Login
         '
         'PictureBox1
         '
+        Me.PictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(144, 96)
@@ -69,6 +71,7 @@ Partial Class Pantalla_Login
         '
         'TextBox2
         '
+        Me.TextBox2.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.TextBox2.BackColor = System.Drawing.Color.White
         Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox2.Font = New System.Drawing.Font("Century Gothic", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
@@ -80,6 +83,7 @@ Partial Class Pantalla_Login
         '
         'btnRound
         '
+        Me.btnRound.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.btnRound.BackColor = System.Drawing.Color.Transparent
         Me.btnRound.FlatAppearance.BorderSize = 0
         Me.btnRound.FlatStyle = System.Windows.Forms.FlatStyle.Flat
@@ -92,6 +96,7 @@ Partial Class Pantalla_Login
         '
         'LinkLabel1
         '
+        Me.LinkLabel1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.LinkLabel1.AutoSize = True
         Me.LinkLabel1.BackColor = System.Drawing.Color.Transparent
         Me.LinkLabel1.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
@@ -104,6 +109,7 @@ Partial Class Pantalla_Login
         '
         'Label3
         '
+        Me.Label3.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Century Gothic", 13.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
@@ -116,6 +122,7 @@ Partial Class Pantalla_Login
         '
         'Label4
         '
+        Me.Label4.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Century Gothic", 13.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
@@ -128,6 +135,7 @@ Partial Class Pantalla_Login
         '
         'ShapedPanel2
         '
+        Me.ShapedPanel2.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.ShapedPanel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(41, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(65, Byte), Integer))
         Me.ShapedPanel2.BorderColor = System.Drawing.Color.Transparent
         Me.ShapedPanel2.Controls.Add(Me.Label4)
@@ -139,6 +147,7 @@ Partial Class Pantalla_Login
         '
         'ShapedPanel3
         '
+        Me.ShapedPanel3.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.ShapedPanel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(41, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(65, Byte), Integer))
         Me.ShapedPanel3.BorderColor = System.Drawing.Color.Transparent
         Me.ShapedPanel3.Controls.Add(Me.Label3)
@@ -150,7 +159,7 @@ Partial Class Pantalla_Login
         '
         'TextBox1
         '
-        Me.TextBox1.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.TextBox1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.TextBox1.BackColor = System.Drawing.Color.White
         Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
@@ -164,6 +173,7 @@ Partial Class Pantalla_Login
         '
         'ShapedPanel4
         '
+        Me.ShapedPanel4.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.ShapedPanel4.BackColor = System.Drawing.Color.White
         Me.ShapedPanel4.BorderColor = System.Drawing.Color.Transparent
         Me.ShapedPanel4.Edge = 40
@@ -174,6 +184,7 @@ Partial Class Pantalla_Login
         '
         'ShapedPanel7
         '
+        Me.ShapedPanel7.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.ShapedPanel7.BackColor = System.Drawing.Color.White
         Me.ShapedPanel7.BorderColor = System.Drawing.Color.Transparent
         Me.ShapedPanel7.Edge = 40
@@ -184,16 +195,18 @@ Partial Class Pantalla_Login
         '
         'ShapedPanel1
         '
+        Me.ShapedPanel1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.ShapedPanel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(41, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(65, Byte), Integer))
         Me.ShapedPanel1.BorderColor = System.Drawing.Color.Transparent
         Me.ShapedPanel1.Edge = 40
-        Me.ShapedPanel1.Location = New System.Drawing.Point(-43, 20)
+        Me.ShapedPanel1.Location = New System.Drawing.Point(0, 20)
         Me.ShapedPanel1.Name = "ShapedPanel1"
-        Me.ShapedPanel1.Size = New System.Drawing.Size(192, 46)
+        Me.ShapedPanel1.Size = New System.Drawing.Size(136, 46)
         Me.ShapedPanel1.TabIndex = 10
         '
         'Panel1
         '
+        Me.Panel1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Panel1.Location = New System.Drawing.Point(207, 235)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(105, 46)
@@ -201,6 +214,7 @@ Partial Class Pantalla_Login
         '
         'Panel2
         '
+        Me.Panel2.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Panel2.BackColor = System.Drawing.Color.White
         Me.Panel2.Location = New System.Drawing.Point(207, 172)
         Me.Panel2.Name = "Panel2"
@@ -209,9 +223,8 @@ Partial Class Pantalla_Login
         '
         'Pantalla_Login
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(524, 450)
         Me.Controls.Add(Me.TextBox2)
@@ -227,12 +240,11 @@ Partial Class Pantalla_Login
         Me.Controls.Add(Me.ShapedPanel2)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.ShapedPanel3)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.MaximizeBox = False
         Me.Name = "Pantalla_Login"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Iniciar Sesión"
+        Me.Text = "8"
+        Me.TopMost = True
         Me.TransparencyKey = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ShapedPanel2.ResumeLayout(False)
