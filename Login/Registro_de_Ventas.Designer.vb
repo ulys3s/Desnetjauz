@@ -22,7 +22,6 @@ Partial Class Registro_de_Ventas
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Registro_de_Ventas))
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
@@ -65,13 +64,9 @@ Partial Class Registro_de_Ventas
         Me.Button22 = New System.Windows.Forms.Button()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
-        Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
-        Me.AdimiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
-        Me.ContextMenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Button1
@@ -427,41 +422,18 @@ Partial Class Registro_de_Ventas
         Me.RichTextBox1.TabIndex = 28
         Me.RichTextBox1.Text = resources.GetString("RichTextBox1.Text")
         '
-        'ContextMenuStrip1
-        '
-        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AdimiToolStripMenuItem})
-        Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.ShowCheckMargin = True
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(127, 26)
-        '
-        'AdimiToolStripMenuItem
-        '
-        Me.AdimiToolStripMenuItem.Name = "AdimiToolStripMenuItem"
-        Me.AdimiToolStripMenuItem.Size = New System.Drawing.Size(126, 22)
-        Me.AdimiToolStripMenuItem.Text = "adimi"
-        '
-        'MenuStrip1
-        '
-        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
-        Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(1904, 24)
-        Me.MenuStrip1.TabIndex = 29
-        Me.MenuStrip1.Text = "MenuStrip1"
-        '
         'Registro_de_Ventas
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(90, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(1904, 1041)
-        Me.Controls.Add(Me.MenuStrip1)
         Me.Controls.Add(Me.RichTextBox1)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.DataGridView1)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Registro_de_Ventas"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -471,9 +443,7 @@ Partial Class Registro_de_Ventas
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
-        Me.ContextMenuStrip1.ResumeLayout(False)
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
 
@@ -506,8 +476,6 @@ Partial Class Registro_de_Ventas
     Friend WithEvents Button22 As Button
     Friend WithEvents GroupBox2 As GroupBox
     Friend WithEvents RichTextBox1 As RichTextBox
-    Friend WithEvents ContextMenuStrip1 As ContextMenuStrip
-    Friend WithEvents AdimiToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Column1 As DataGridViewTextBoxColumn
     Friend WithEvents Column2 As DataGridViewTextBoxColumn
     Friend WithEvents Column3 As DataGridViewTextBoxColumn
@@ -520,5 +488,4 @@ Partial Class Registro_de_Ventas
     Friend WithEvents Column10 As DataGridViewTextBoxColumn
     Friend WithEvents Column11 As DataGridViewTextBoxColumn
     Friend WithEvents Column12 As DataGridViewTextBoxColumn
-    Friend WithEvents MenuStrip1 As MenuStrip
 End Class
